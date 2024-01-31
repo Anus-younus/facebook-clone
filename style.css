@@ -1,0 +1,209 @@
+.navbar{
+    border-bottom: 3px  solid #f1e9e9;
+    height: 50px;
+}
+.navbar-brand > img{
+     height: 30px;
+     width: 30px;
+}
+.form-control{
+    height: 30px;
+    border-radius: 30px !important; 
+}
+.navbar-nav{
+    margin-left: 60px;
+}
+.nav-item{
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    border-radius: 15px;
+    transition: 0.5s all ease;
+}
+.nav-item > a > i{
+    color: #5c5b5b;
+}
+.nav-item:hover{
+   background-color: #e0d2d2;
+}
+.list:hover{
+    background-color: #fff;
+}
+.btn-1{
+    background-color: #f1e3e3 !important;
+    width: 40px !important;
+    border-radius: 30px !important;
+    color: #000 !important;
+    margin-right: 10px !important;
+}
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.3rem;
+    background-color: #dad5d5;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000;
+    bottom: 3px;
+}
+.main-container{
+    height: 130vh;
+    width: 98.5vw;
+    background-color: #cccfd4;
+}
+.card{
+    width: 500px;
+    height: 80px !important;
+    position: absolute !important;
+    left: 280px;
+    top: 70px;
+}
+.card-title{
+    font-size: 14px !important;
+}
+.card-text{
+    font-size: 12px !important;
+}
+.btn-2 > i{
+    font-size: 32px;
+    border-radius: 50%;
+    color: blue;
+}
+.card-body{
+    display: flex;
+}
+.row-1{
+    display: flex;
+    flex-direction: column;
+}
+.card-2{
+    position: absolute !important;
+    height: 120px !important;
+    left: 30px;
+    width: 450px;
+    top: 100px;
+}
+.btn-3 > i{
+    color: red;
+    font-size: 20px;
+}
+.btn-4 > i{
+    color: green;
+    font-size: 20px;
+}
+.btn-5 > i{
+    color: yellow;
+    font-size: 20px;
+}
+.card-3{
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    width: 500px !important;
+}
+.btn-6{
+    background-color: #f1e3e3 !important;
+    width: 40px !important;
+    border-radius: 30px !important;
+    color: #000 !important;
+    margin-right: 10px !important;
+}
+.para-1 > p > span{
+    font-size: 12px;
+}
+.card-text-2{
+    font-size: 10px;
+    color: #5c5b5b;
+}
+.list{
+    position: absolute;
+    top: 60px;
+}
+.list > ul{
+    list-style: none;
+}
+.list:hover{
+    background-color: #cccfd4;
+}
+.list > ul > li{
+    margin-top: 16px;
+}
+.bi-1{
+    color: blue !important;
+}
+.bi-2{
+    color: red !important;
+}
+.bi-3{
+    color: purple !important;
+}
+.bi-4{
+    color: navy !important;
+}
+.bi-5{
+    color: brown !important;
+}
+.bi-6{
+    color: magenta !important;
+}
+.bi-7{
+    color: palevioletred !important;
+}
+.bi-8{
+    color: rgb(77, 77, 39) !important;
+}
+.bi-9{
+    color: rgb(80, 75, 75) !important;
+}
+.bi-10{
+    color: red !important;
+}
+.bi-11{
+    color: black;
+}
+.card-4{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 250px !important;
+    text-align: center;
+}
+
+.card-4 img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-4 > h1{
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 576px) {
+    .list{
+        display: none;
+    }
+}
+@media only screen and (min-width :992px) {
+    .list{
+        display: block;
+    }
+}
